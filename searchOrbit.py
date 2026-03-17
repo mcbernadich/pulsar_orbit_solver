@@ -20,6 +20,8 @@ import orbital_tools as ot
 import numpy as np
 import time
 import matplotlib.pyplot as plt
+import warnings
+warnings.filterwarnings("ignore", category=SyntaxWarning)
 
 parser=argparse.ArgumentParser(description="Searcht the correct orbital from MJD-Ps measurements.")
 parser.add_argument("-d","--data",help="Files with MJD, Ps and error meaurements (ms) separated by spaces. Files separated by comas, or path.")
