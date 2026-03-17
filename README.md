@@ -31,11 +31,11 @@ Try ```python3 fitEllipse.py --freq 1 -d J1326-4728N/J1326-4728N.dat``` to get s
 
 Try ```python3 searchOrbit.py -d "J1326-4728N/*.per" -p J1326-4728N/J1326-4728N.par -r "5:8" -e "0.05:0.15"``` to search for its best orbital period. Notice that the Pb and eccentricity ranges are derived from the results of the previous fit. The example uses ```J1326-4728N.par```, but you could make your own parameter file from the result of the previous fit.
 
-Try ```python3 fitOrbit.py -d "J1326-4728N/*.per" -p J1326-4728N/J1326-4728N.par``` to perform the full Keplerian fit. Notice that, again, ```J1326-4728N.par``` is used as a prior, but you could alos use your own prior from the previous two fits.
+Try ```python3 fitOrbit.py -d "J1326-4728N/*.per" -p J1326-4728N/J1326-4728N.par``` to perform the full Keplerian fit. Notice that, again, ```J1326-4728N.par``` is used as a prior, but you could also use your own prior from the previous two fits.
 
 ## Feedback
 
-Write to mcbernadich@mpifr-bonn.mpg.de or miquel.colomibernadich@inaf.it for feeddback
+Write to mcbernadich@mpifr-bonn.mpg.de or miquel.colomibernadich@inaf.it for feedback
 
 ## Credits
 
