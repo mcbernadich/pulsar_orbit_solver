@@ -1,6 +1,7 @@
 # pulsar_orbit_solver
 
-Some tools to solve puslar orbits before timing. These work on pdmp or perpfold measurements of spin periods, spin period derivatives, and accelerataions.
+Some tools to solve puslar orbits before timing. These work on pdmp or prepfold measurements of spin periods, spin period derivatives, and accelerations. Fully implemented in Python3 using only standard scientific libraries (```numpy```, ```scipy```, ```matplotlib```).
+
 
 ## Included scripts
 
